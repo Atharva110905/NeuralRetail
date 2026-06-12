@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Atharva More/NeuralRetail/mlruns/1/models/m-1e3c69e8a3a1417293ca1a70b04504e9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-1e3c69e8a3a1417293ca1a70b04504e9
+model_size_bytes: 932
+model_uuid: m-1e3c69e8a3a1417293ca1a70b04504e9
+prompts: null
+run_id: 77335486b2ed46d6bf1c4bff5567edfb
+utc_time_created: '2026-06-12 06:41:31.845308'
